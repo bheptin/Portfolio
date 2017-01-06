@@ -12,6 +12,9 @@ html {
 body {
   margin: 0;
 }
+#toplogo {
+  color: white;
+}
 article,
 aside,
 details,

@@ -1,10 +1,4 @@
-/*!
- * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
-/* Global Styles */
 
 html,
 body {
@@ -244,4 +238,12 @@ footer {
 .LOB {
   margin-left: 30px;
   margin-bottom: 20px;
+}
+.lead {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+#about h2 {
+  font-size: 40px;
 }

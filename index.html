@@ -31,16 +31,15 @@
       <div class="header-blue">
           <nav  class="navbar navbar-default navigation-clean-search">
               <div  class="container">
-                  <div class="navbar-header"><a style="color: white" class="navbar-brand navbar-link" href="#">Brian Heptinstall</a>
-                  </div>
-                  <div class="collapse navbar-collapse" id="navcol-1">
+                  <div style="float: right" class="collapse navbar-collapse" id="navcol-1">
                       <ul class="nav navbar-nav">
-                          <li  class="active" role="presentation"><a style="color: white" href="#">Resume</a></li>
+                          <li  class="active" role="presentation"><a style="color: white" href="https://drive.google.com/open?id=0Bxs7Vb5zHA-rTFhYNmE2Si1nNjA">Resume</a></li>
                           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="color: white" href="#">Links <span class="caret"></span></a>
                               <ul class="dropdown-menu" role="menu">
-                                  <li role="presentation"><a href="#">First Item</a></li>
-                                  <li role="presentation"><a href="#">Second Item</a></li>
-                                  <li role="presentation"><a href="#">Third Item</a></li>
+                                  <li role="presentation"><a href="#about">About Bama</a></li>
+                                  <li role="presentation"><a href="#services">At a Glance</a></li>
+                                  <li role="presentation"><a href="#skills">Mad Skillz</a></li>
+                                  <li role="presentation"><a href="#portfolio">Projects</a></li>
                               </ul>
                           </li>
                       </ul>
@@ -63,19 +62,6 @@
             <h1>Brian Heptinstall</h1>
             <h3>Front-End Developer</h3>
             <br>
-            <ul class="list-inline">
-                <li>
-                    <a href="https://www.facebook.com/brian.heptinstall"><i class="fa fa-facebook fa-3x"></i></a>
-                </li>
-                <li>
-                    <a href="https://github.com/bheptin"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/bheptin"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                </li>
-            </ul>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">About Me</a>
         </div>
     </header>
 
@@ -310,7 +296,7 @@
     <script>
 
     //open links
-    $( ".dropdown" ).hover(function() {
+    $('.dropdown').hover(function() {
       $( this ).hover(function(){
             $(this).children('.dropdown-menu').slideDown(200);
         },
@@ -369,7 +355,7 @@
   $(window).scroll(function(){
 
     if($(window).scrollTop()>50){
-    $(".navbar-default").css({"background-color" : "rgb(144, 146, 160)", "color" : "white", "opacity" : ".92", "transition" : "1s", "transition-timing-function" : "ease-in-out"});
+    $(".navigation-clean-search").css({"background-color" : "rgb(144, 146, 160)", "color" : "white", "opacity" : ".92", "transition" : "1s", "transition-timing-function" : "ease-in-out"});
 
   } else {
     $(".navbar-default").css({"background-color" : "rgba(255,255,255,0)"});

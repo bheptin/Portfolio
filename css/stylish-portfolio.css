@@ -2,10 +2,14 @@
   background-color: rgba(255,255,255,0);
     border: none;
     color: white;
+    font-size: x-large;
+    font-weight: lighter;
 }
 #navcol-1 a {
   background-color: rgba(255,255,255,0);
     border: none;
+    font-size: x-large;
+    font-weight: lighter;
 }
 
 html,
@@ -15,6 +19,7 @@ body {
 }
 
 body {
+
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 

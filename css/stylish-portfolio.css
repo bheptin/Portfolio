@@ -6,12 +6,16 @@
     font-size: x-large;
     font-weight: lighter;
 }
+#navcol-1 {
+  background-color: rgba(255,255,255,0);
+
+}
 #navcol-1 a {
   background-color: rgba(255,255,255,0);
     border: none;
     font-size: x-large;
     font-weight: lighter;
-    color: white;
+    color: rgba(0,0,0,0.7);
 }
 .navbar-brand.navbar-link a {
   color: white;

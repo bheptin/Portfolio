@@ -20,7 +20,9 @@
 .navbar-brand.navbar-link a {
   color: white;
 }
-
+.dropdown-menu {
+  background-color: rgb(144, 146, 160);
+}
 
 html,
 body {

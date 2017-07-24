@@ -376,12 +376,12 @@
   $(window).scroll(function(){
 
     if($(window).scrollTop()>50){
-    $(".navigation-clean-search").css({"background-color" : "rgb(144, 146, 160)", "color" : "white", "opacity" : ".92", "transition" : "1s", "transition-timing-function" : "ease-in-out"});
-
+    $(".navigation-clean-search").css({"background-color" : "rgb(0,182,213)", "color" : "black", "opacity" : ".92", "transition" : "1s", "transition-timing-function" : "ease-in-out"});
+    $("#navcol-1 a").css({"color": "white", "font-weight" : "700"});
   } else {
     $(".navbar-default").css({"background-color" : "rgba(255,255,255,0)"});
-  }
-
+    $("#navcol-1 a").css({"color": "rgb(0,182,213)"});
+}
 
 });
 

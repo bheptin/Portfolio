@@ -1,4 +1,6 @@
-
+.img-portfolio {
+  max-width: 60%;
+}
 .navbar-fixed-top, .navbar-default, #navcol-1  {
   background-color: rgba(255,255,255,0);
     border: none;
@@ -14,15 +16,13 @@
   background-color: rgba(255,255,255,0);
     border: none;
     font-size: x-large;
-    font-weight: lighter;
-    color: rgba(0,0,0,0.7);
+    font-weight: 700;
+    color: rgb(0,182,213);
 }
 .navbar-brand.navbar-link a {
   color: white;
 }
-.dropdown-menu {
-  background-color: rgb(144, 146, 160);
-}
+
 
 html,
 body {

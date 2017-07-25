@@ -17,12 +17,14 @@
     border: none;
     font-size: x-large;
     font-weight: 400;
-    color: rgb(0,182,213);
+    color: white;
 }
-.navbar-brand.navbar-link a {
-  color: white;
+ul .dropdown-menu {
+  border-color: none;
+  border: none;
+  
+  color: rgb(0,182,213);
 }
-
 
 html,
 body {

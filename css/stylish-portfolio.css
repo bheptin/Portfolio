@@ -17,12 +17,12 @@
     border: none;
     font-size: x-large;
     font-weight: 400;
-    color: white;
+    color: rgb(55,61,33);
 }
 ul .dropdown-menu {
   border-color: none;
   border: none;
-  
+
   color: rgb(0,182,213);
 }
 

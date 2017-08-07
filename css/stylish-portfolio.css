@@ -3,26 +3,29 @@
 }
 .navbar-fixed-top, .navbar-default, #navcol-1  {
   background-color: rgba(255,255,255,0);
-    border: none;
-    color: white;
-    font-size: x-large;
-    font-weight: lighter;
+  border: none;
+  color: white;
+  font-size: x-large;
+  font-weight: lighter;
 }
 #navcol-1 {
   background-color: rgba(255,255,255,0);
+  border: none;
+  border-color: none;
 
 }
 #navcol-1 a {
   background-color: rgba(255,255,255,0);
-    border: none;
-    font-size: x-large;
-    font-weight: 400;
-    color: rgb(55,61,33);
+  border: none;
+  font-size: x-large;
+  font-weight: 400;
+  color: rgb(55,61,33);
+
 }
 ul .dropdown-menu {
+  background-color: #47dff7;
   border-color: none;
   border: none;
-  background-color: rgba(255,255,255,0);
   color: rgb(0,182,213);
 }
 
